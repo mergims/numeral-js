@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --reporter nyan test.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "name": "numeral-js",
+  "version": "1.0.0",
+  "description": "Class that converts numbers to lettered, readable strings",
+  "repository": "git@github.com:mergims/numeral-js.git",
+  "author": "Mergim Sahiti <mergim.s@live.com>",
+  "license": "MIT"
+}
